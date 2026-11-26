@@ -330,5 +330,18 @@
   "id.verification.requirements.card.device.text": "카메라가 있는 기기가 필요합니다. 카메라에 액세스하기 위한 브라우저 프롬프트가 표시되면, 당신은 \"{allow}\"를 클릭해야 합니다.",
   "id.verification.account.name.summary.alert": "귀하의 계정 설정은 {managerTitle} 에서 관리합니다. 사진 ID의 이름이 계정의 이름과 일치하지 않으면 {profileDataManager} 관리자 또는 {support} 도움을 요청하세요.",
   "idv.submission.alert.error": "ID 검증을 제출하는 동안 기술적 오류가 발생했습니다. 이는 일시적인 문제일 수 있으므로 몇 분 후에 다시 시도해 보세요. 문제가 지속되면 {support_link} 으로 이동하여 도움을 받으세요.",
-  "id.verification.account.name.edit": "편집 {sr}"
+  "id.verification.account.name.edit": "편집 {sr}",
+  "klms.header.userMenu.dashboard": "대시보드",
+  "klms.header.userMenu.profile": "프로필",
+  "klms.header.userMenu.account": "계정",
+  "klms.header.userMenu.logout": "로그아웃",
+  "learnerVariantDashboard.course": "강의",
+  "klms.header.courses": "과정",
+  "account.settings.field.password": "비밀번호",
+  "account.settings.field.password.current": "현재 비밀번호",
+  "account.settings.field.password.new": "새 비밀번호",
+  "account.settings.field.password.confirm": "새 비밀번호 확인",
+  "account.settings.field.password.submit": "비밀번호 변경",
+  "account.settings.field.password.success": "비밀번호를 바꿨습니다.",
+  "account.settings.field.password.error": "비밀번호를 바꾸지 못했습니다."
 }

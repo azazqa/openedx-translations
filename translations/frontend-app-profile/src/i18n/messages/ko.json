@@ -55,5 +55,11 @@
   "profile.formcontrols.button.saving": "",
   "profile.formcontrols.button.saved": "저장됨",
   "profile.visibility.who.just.me": "나뿐이야",
-  "profile.visibility.who.everyone": "{siteName} 의 모든 사람들"
+  "profile.visibility.who.everyone": "{siteName} 의 모든 사람들",
+  "klms.header.userMenu.dashboard": "대시보드",
+  "klms.header.userMenu.profile": "프로필",
+  "klms.header.userMenu.account": "계정",
+  "klms.header.userMenu.logout": "로그아웃",
+  "learnerVariantDashboard.course": "강의",
+  "klms.header.courses": "과정"
 }

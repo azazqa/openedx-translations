@@ -1,0 +1,16 @@
+{
+  "klms.learnerDashboard.courseListFilters.refine": "필터",
+  "klms.header.userMenu.dashboard": "대시보드",
+  "klms.header.userMenu.profile": "프로필",
+  "klms.header.userMenu.account": "계정",
+  "klms.header.userMenu.logout": "로그아웃",
+  "learnerVariantDashboard.course": "강의",
+  "learnerVariantDashboard.program": "프로그램",
+  "klms.header.courses": "과정",
+  "klms.learnerDashboard.courseCard.actions.resume": "학습하기",
+  "klms.learnerDashboard.completionCriteria.title": "수료 기준",
+  "klms.learnerDashboard.completionCriteria.passScore": "종합 성적 {passScore}점 이상",
+  "klms.learnerDashboard.completionCriteria.weights": "{weightsLine} 비율로 합산하여",
+  "klms.learnerDashboard.completionCriteria.scale": "종합 성적 100점 만점으로 계산",
+  "klms.learnerDashboard.courseProgress.ariaLabel": "진도율"
+}

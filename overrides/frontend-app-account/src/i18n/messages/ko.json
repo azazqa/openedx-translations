@@ -1,0 +1,15 @@
+{
+  "klms.header.userMenu.dashboard": "대시보드",
+  "klms.header.userMenu.profile": "프로필",
+  "klms.header.userMenu.account": "계정",
+  "klms.header.userMenu.logout": "로그아웃",
+  "learnerVariantDashboard.course": "강의",
+  "klms.header.courses": "과정",
+  "account.settings.field.password": "비밀번호",
+  "account.settings.field.password.current": "현재 비밀번호",
+  "account.settings.field.password.new": "새 비밀번호",
+  "account.settings.field.password.confirm": "새 비밀번호 확인",
+  "account.settings.field.password.submit": "비밀번호 변경",
+  "account.settings.field.password.success": "비밀번호를 바꿨습니다.",
+  "account.settings.field.password.error": "비밀번호를 바꾸지 못했습니다."
+}

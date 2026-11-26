@@ -43,8 +43,9 @@ def main() -> int:
         elif ov.suffix == ".json":
             base = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {}
             base.update(json.loads(ov.read_text(encoding="utf-8")))
+            # 키 순서는 upstream 파일을 그대로 두고 새 키만 뒤에 붙입니다 (diff 를 줄이기 위해 정렬하지 않음).
             target.write_text(
-                json.dumps(base, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+                json.dumps(base, ensure_ascii=False, indent=2) + "\n",
                 encoding="utf-8",
             )
         else:
