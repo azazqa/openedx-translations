@@ -1,0 +1,299 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klms-verawood\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Cancelled"
+msgstr "취소됨"
+
+msgid "Certificate dict {0} missing value key '{1}'"
+msgstr "인증서 dict {0} 값 키 '{1}'이(가) 없습니다."
+
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"과정 '{name}'을(를) 만들 수 없습니다.\n"
+"\n"
+"{err}"
+
+msgid "Unable to create library - missing required field '{field}'"
+msgstr "라이브러리를 생성할 수 없습니다. 필수 필드 '{field}'가 없습니다."
+
+msgid "Could not find user by email address '{email}'."
+msgstr "이메일 주소 '{email}'로 사용자를 찾을 수 없습니다."
+
+msgid "Incorrect format for field '{name}'. {detailed_message}"
+msgstr "필드 '{name}'의 형식이 잘못되었습니다. {detailed_message}"
+
+msgid "An account with the Email '{email}' already exists."
+msgstr "이미 '{email}' 이메일을 사용하는 계정이 있습니다."
+
+msgid "An account with the Public Username '{username}' already exists."
+msgstr "공개 사용자 이름이 '{username}'인 계정이 이미 있습니다."
+
+msgid "The file must end with the extension '{file_types}'."
+msgid_plural ""
+"The file must end with one of the following extensions: '{file_types}'."
+msgstr[0] "파일은 다음 확장자 중 하나로 끝나야 합니다: '{file_types}'."
+
+msgid ""
+"If you set this email address, click \"confirm email.\"  If you didn't "
+"request this change, you can disregard this email."
+msgstr "이 이메일 주소를 설정한 경우 \"이메일 확인\"을 클릭하세요. 이 변경을 요청하지 않은 경우 이 이메일을 무시할 수 있습니다."
+
+msgid "Course id '{course_id}' is not valid"
+msgstr "과정 ID '{course_id}'이 유효하지 않습니다."
+
+msgid "The course does not exist against the given key '{course_key}'"
+msgstr "주어진 키 '{course_key}'에 대한 과정이 존재하지 않습니다."
+
+msgid ""
+"If any of these values is left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Disabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Disabled only if the org that it is in is Disabled."
+msgstr ""
+"이러한 값 중 하나라도 비어 있거나 \"알 수 없음\"으로 남겨두면 런타임 시 해당 값은 적용되는 가장 구체적인 다음 컨텍스트에서 "
+"검색됩니다. 예를 들어, 코스 컨텍스트에서 \"비활성화됨\"이 \"알 수 없음\"으로 남겨지면 해당 코스는 해당 코스가 속한 조직이 "
+"비활성화된 경우에만 비활성화됩니다."
+
+msgid "'course_id' is required."
+msgstr "'course_id'는 필수입니다."
+
+msgid ""
+"You are enrolled in this course with '{enrollment_enterprise_name}'. "
+"However, you are currently logged in as a '{active_enterprise_name}' user. "
+"Please log in with '{enrollment_enterprise_name}' to access this course."
+msgstr ""
+"귀하는 '{enrollment_enterprise_name}'으로 이 과정에 등록되어 있습니다. 그러나 현재 "
+"'{active_enterprise_name}' 사용자로 로그인되어 있습니다. 이 과정에 액세스하려면 "
+"'{enrollment_enterprise_name}'으로 로그인하세요."
+
+msgid ""
+"Error '{error}' while sending email to new user (user email={email}). "
+"Without the email student would not be able to login. Please contact support"
+" for further information."
+msgstr ""
+"새 사용자(사용자 이메일= {email} )에게 이메일을 보내는 동안 '{error}' 오류가 발생했습니다. 이메일이 없으면 학생은 "
+"로그인할 수 없습니다. 자세한 내용은 지원팀에 문의하세요."
+
+msgid "The file must contain a 'cohort' column containing cohort names."
+msgstr "파일에는 코호트 이름이 포함된 '코호트' 열이 있어야 합니다."
+
+msgid "Invalid data, generate_for must be \"new\" or \"all\"."
+msgstr "잘못된 데이터입니다. generate_for는 \"new\" 또는 \"all\"이어야 합니다."
+
+msgid "Incomplete"
+msgstr "미완료"
+
+msgid "Unable to find submission to be {action} for student '{student}'"
+msgstr "학생 '{student}'에 대한 {action} 제출물을 찾을 수 없습니다."
+
+msgid "Problem failed to be {action} for student '{student}'"
+msgstr "학생 '{student}'에 대한 문제가 {action} 되지 않았습니다."
+
+msgid "Problem successfully {action} for student '{student}'"
+msgstr "학생 '{student}'에 대한 문제가 성공적으로 {action} ."
+
+msgid ""
+"Unable to find entrance exam submission to be {action} for student "
+"'{student}'"
+msgstr "학생 '{student}'에 대한 입학 시험 제출물 {action} 을 찾을 수 없습니다."
+
+msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
+msgstr "사용자 \"%(username)s\"에 대한 은퇴를 취소하시겠습니까? "
+
+msgid "To view live discussions, click Preview or View Live in Unit Settings."
+msgstr "실시간 토론을 보려면 '미리 보기' 또는 '단위 설정'에서 '실시간 보기'를 클릭하세요."
+
+msgid ""
+"Please click the 'Allow' button to grant these permissions to the above "
+"application. Otherwise, to withhold these permissions, please click the "
+"'Cancel' button."
+msgstr ""
+"위의 애플리케이션에 이러한 권한을 부여하려면 '허용' 버튼을 클릭하십시오. 그렇지 않으면 이러한 권한을 보류하려면 '취소' 버튼을 "
+"클릭하십시오."
+
+msgid "Upload file"
+msgstr "파일 올리기"
+
+msgid ""
+"If any of these values are left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Enabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Enabled only if the org that it is in is Enabled."
+msgstr ""
+"이러한 값 중 하나라도 비어 있거나 \"알 수 없음\"으로 남겨두면 런타임 시 해당 값은 적용되는 가장 구체적인 다음 컨텍스트에서 "
+"검색됩니다. 예를 들어, 코스 컨텍스트에서 \"활성화됨\"이 \"알 수 없음\"으로 남겨지면 해당 코스는 해당 코스가 속한 조직이 "
+"활성화된 경우에만 활성화됩니다."
+
+msgid ""
+"Configure values for all course runs associated with this course. This is "
+"should be formatted as 'org+course' (i.e. MITx+6.002x, HarvardX+CS50)."
+msgstr ""
+"이 코스와 관련된 모든 코스 실행에 대한 값을 구성합니다. 이는 'org+course'(예: MITx+6.002x, "
+"HarvardX+CS50)로 형식화해야 합니다."
+
+msgid "One and only one of 'user' and 'group' must be set."
+msgstr "'사용자'와 '그룹' 중 하나만 설정해야 합니다."
+
+msgid "Loading"
+msgstr "불러오는 중"
+
+msgid "Path used to construct URLs to programs marketing pages (e.g., \"/foo\")."
+msgstr "프로그램 마케팅 페이지의 URL을 구성하는 데 사용되는 경로(예: \"/foo\")."
+
+msgid "Schedule start < course start"
+msgstr "일정 시작 < 코스 시작"
+
+msgid "The '{field_name}' field cannot be edited."
+msgstr "'{field_name}' 필드는 편집할 수 없습니다."
+
+msgid "Delete failed for user preference '{preference_key}'."
+msgstr "사용자 환경 설정 '{preference_key}'을 삭제하지 못했습니다."
+
+msgid "Preference '{preference_key}' cannot be set to an empty value."
+msgstr "환경 설정 '{preference_key}'은 빈 값으로 설정할 수 없습니다."
+
+msgid "Invalid user preference key '{preference_key}'."
+msgstr "잘못된 사용자 환경 설정 키 '{preference_key}'입니다."
+
+msgid ""
+"Value '{preference_value}' is not valid for user preference "
+"'{preference_key}'."
+msgstr "값 '{preference_value}'은 사용자 환경 설정 '{preference_key}'에 유효하지 않습니다."
+
+msgid ""
+"Value '{preference_value}' not valid for preference '{preference_key}': Not "
+"in timezone set."
+msgstr ""
+"값 '{preference_value}'은 환경 설정 '{preference_key}'에 유효하지 않습니다. 시간대가 설정되어 있지 "
+"않습니다."
+
+msgid "Save failed for user preference '{key}' with value '{value}'."
+msgstr "값 '{value}'을(를) 사용하여 사용자 기본 설정 '{key}'을(를) 저장하는 데 실패했습니다."
+
+msgid "Incorrect"
+msgstr "오답"
+
+msgid "Correct"
+msgstr "정답"
+
+msgid "Invalid input: Could not parse '{bad_input}' as a formula."
+msgstr "잘못된 입력: '{bad_input}'을 수식으로 구문 분석할 수 없습니다."
+
+msgid "Invalid input: Could not parse '{bad_input}' as a formula"
+msgstr "잘못된 입력: '{bad_input}'을 수식으로 구문 분석할 수 없습니다."
+
+msgid ""
+"Number of times the student must attempt to answer the question before the "
+"Show Answer button appears."
+msgstr "학생이 '정답 보기' 버튼이 나타나기 전에 질문에 대답을 시도해야 하는 횟수입니다."
+
+msgid ""
+"Determines whether a 'Reset' button is shown so the user may reset their "
+"answer. A default value can be set in Advanced Settings."
+msgstr ""
+"사용자가 답변을 재설정할 수 있도록 '재설정' 버튼을 표시할지 여부를 결정합니다. 기본값은 고급 설정에서 설정할 수 있습니다."
+
+msgid ""
+"Your answers were previously saved. Click '{button_name}' to grade them."
+msgstr "귀하의 답변은 이전에 저장되었습니다. '{button_name}'을 클릭하여 평가하세요."
+
+msgid "Partially Correct"
+msgstr "부분 정답"
+
+msgid "Problem is closed."
+msgstr "문제가 마감되었습니다."
+
+msgid ""
+"Your answers have been saved but not graded. Click '{button_name}' to grade "
+"them."
+msgstr "답안이 저장되었으나 아직 채점되지는 않았습니다. '제출'을 클릭하여 채점하세요."
+
+msgid "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
+msgstr "이 과정을 편집하는 방법을 입력하세요(\"XML\" 또는 \"Studio\")."
+
+msgid ""
+"URL for CCX Connector application for managing creation of CCXs. (optional)."
+" Ignored unless 'Enable CCX' is set to 'true'."
+msgstr ""
+"CCX 생성을 관리하기 위한 CCX 커넥터 애플리케이션의 URL입니다(선택 사항). 'CCX 사용'이 '참'으로 설정되지 않으면 "
+"무시됩니다."
+
+msgid ""
+"Use this setting only when generating PDF certificates. Between quotation "
+"marks, enter the long name of the type of certificate that students receive "
+"when they complete the course. For instance, \"Certificate of Achievement\"."
+msgstr ""
+"PDF 인증서를 생성할 때만 이 설정을 사용합니다. 따옴표 사이에 학생들이 코스를 완료할 때 받는 인증서 유형의 긴 이름을 입력합니다. "
+"예를 들어, \"Certificate of Achievement\"."
+
+msgid ""
+"Defines the access permissions for showing the course in the course catalog."
+" This can be set to one of three values: 'both' (show in catalog and allow "
+"access to about page), 'about' (only allow access to about page), 'none' (do"
+" not show in catalog and do not allow access to an about page)."
+msgstr ""
+"코스 카탈로그에서 코스를 표시하기 위한 액세스 권한을 정의합니다. 이는 다음 세 가지 값 중 하나로 설정할 수 있습니다. "
+"'both'(카탈로그에 표시하고 about 페이지에 대한 액세스 허용), 'about'(about 페이지에만 액세스 허용), "
+"'none'(카탈로그에 표시하지 않고 about 페이지에 대한 액세스 허용 안 함)."
+
+msgid ""
+"Defines the access permissions for unenrolled learners. This can be set to "
+"one of three values: 'private' (default visibility, only allowed for "
+"enrolled students), 'public_outline' (allow access to course outline) and "
+"'public' (allow access to both outline and course content)."
+msgstr ""
+"등록되지 않은 학습자의 액세스 권한을 정의합니다. 이는 다음 세 가지 값 중 하나로 설정할 수 있습니다. 'private'(기본 가시성,"
+" 등록된 학생에게만 허용), 'public_outline'(과정 개요에 대한 액세스 허용), 'public'(개요와 과정 콘텐츠 모두에 "
+"대한 액세스 허용)."
+
+msgid ""
+"Specify the video sharing options for the course. This can be set to one of "
+"three values: 'all-on', 'all-off' and 'per-video'. with 'per-video' as the "
+"default."
+msgstr ""
+"코스에 대한 비디오 공유 옵션을 지정합니다. 이는 '모두 켜짐', '모두 꺼짐' 및 '비디오당'의 세 가지 값 중 하나로 설정할 수 "
+"있습니다. 기본값은 '비디오당'입니다."
+
+msgid ""
+"ERROR: \"{block_type}\" is an unknown component type. This component will be"
+" hidden in LMS."
+msgstr "오류: \" {block_type} \"은 알 수 없는 구성 요소 유형입니다. 이 구성 요소는 LMS에서 숨겨집니다."
+
+msgid ""
+"Determines whether a 'Reset Problems' button is shown, so users may reset "
+"their answers and reshuffle selected items."
+msgstr "사용자가 답변을 재설정하고 선택한 항목을 다시 섞을 수 있도록 '문제 재설정' 버튼을 표시할지 여부를 결정합니다."
+
+msgid ""
+"Choose a problem type to fetch from the library. If \"Any Type\" is selected"
+" no filtering is applied."
+msgstr "라이브러리에서 가져올 문제 유형을 선택하세요. \"모든 유형\"을 선택하면 필터링이 적용되지 않습니다."
+
+msgid ""
+"Could not parse custom parameter: {custom_parameter}. Should be \"x=y\" "
+"string."
+msgstr "사용자 지정 매개변수를 구문 분석할 수 없습니다: {custom_parameter}. \"x=y\" 문자열이어야 합니다."
+
+msgid ""
+"Specify when to show answer correctness and score to learners. Valid values "
+"are \"always\", \"never\", and \"past_due\"."
+msgstr "학습자에게 답변의 정확성과 점수를 보여줄 시기를 지정합니다. 유효한 값은 \"always\", \"never\", \"past_due\"입니다."
+
+msgid ""
+"Enter true or false. If true, problems in the course default to always "
+"displaying a 'Reset' button. You can override this in each problem's "
+"settings. All existing problems are affected when this course-wide setting "
+"is changed."
+msgstr ""
+"참 또는 거짓을 입력합니다. 참이면 과정의 문제는 항상 '재설정' 버튼을 표시하는 것으로 기본 설정됩니다. 각 문제의 설정에서 이를 "
+"재정의할 수 있습니다. 이 과정 전체 설정이 변경되면 모든 기존 문제가 영향을 받습니다."

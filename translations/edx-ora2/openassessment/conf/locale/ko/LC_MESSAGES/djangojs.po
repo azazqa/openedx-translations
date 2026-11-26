@@ -1,25 +1,21 @@
-# #-#-#-#-#  djangojs.po (edx-ora2)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2018 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2018.
-# 
-# Translators:
-# Brian Smith, 2026
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: edx-ora2\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-30 01:00+0000\n"
-"PO-Revision-Date: 2026-08-07 10:24+0000\n"
-"Last-Translator: Brian Smith, 2026\n"
-"Language-Team: Korean (https://app.transifex.com/open-edx/teams/6205/ko/)\n"
+"Project-Id-Version: klms-verawood\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Confirm"
+msgstr "확인"
+
+msgid "Confirm Submit Response"
+msgstr "제출 확인"
+
+msgid "You're about to submit your response for this assignment. After you submit this response, you can't change it or submit a new response."
+msgstr "이 과제에 대한 답변을 제출하려고 합니다. 답변을 제출하고 나면 내용을 수정하거나 새로 제출할 수 없습니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:8
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:1
@@ -242,19 +238,13 @@ msgid "Back to Full List"
 msgstr "전체 목록으로 돌아가기"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-#: xblock/static/js/src/lms/oa_confirmation_alert.js:5
-msgid "Confirm"
-msgstr "확인하다"
-
-#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_confirmation_alert.js:7
 msgid "Cancel"
 msgstr "취소"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:272
-msgid ""
-"There is still file upload in progress. Please wait until it is finished."
+msgid "There is still file upload in progress. Please wait until it is finished."
 msgstr "아직 파일 업로드가 진행 중입니다. 완료될 때까지 기다려 주세요."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -294,9 +284,7 @@ msgstr "초안 저장"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:465
-msgid ""
-"If you leave this page without saving or submitting your response, you will "
-"lose any work you have done on the response."
+msgid "If you leave this page without saving or submitting your response, you will lose any work you have done on the response."
 msgstr "응답을 저장하거나 제출하지 않고 이 페이지를 떠나면 응답에 대해 수행한 모든 작업이 손실됩니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -315,25 +303,9 @@ msgid "Error"
 msgstr "오류"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-#: xblock/static/js/src/lms/oa_response.js:530
-msgid "Confirm Submit Response"
-msgstr "제출 응답 확인"
-
-#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:534
-msgid ""
-"You're about to submit your response for this assignment. After you submit "
-"this response, you may have a limited time to resubmit before your "
-"submission is graded."
-msgstr ""
-"이 과제에 대한 응답을 제출하려고 합니다. 이 응답을 제출한 후 제출물이 채점되기 전에 다시 제출할 수 있는 시간이 제한될 수 있습니다."
-
-#: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-#: xblock/static/js/src/lms/oa_response.js:540
-msgid ""
-"You're about to submit your response for this assignment. After you submit "
-"this response, you can't change it or submit a new response."
-msgstr "이 과제에 대한 응답을 제출하려고 합니다. 이 응답을 제출한 후에는 변경하거나 새 응답을 제출할 수 없습니다."
+msgid "You're about to submit your response for this assignment. After you submit this response, you may have a limited time to resubmit before your submission is graded."
+msgstr "이 과제에 대한 응답을 제출하려고 합니다. 이 응답을 제출한 후 제출물이 채점되기 전에 다시 제출할 수 있는 시간이 제한될 수 있습니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:582
@@ -342,10 +314,7 @@ msgstr "확인 재설정"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:584
-msgid ""
-"You're about to reset your response for this assignment. You will need to "
-"submit a new response in order to complete this step. Are you sure you want "
-"to continue?"
+msgid "You're about to reset your response for this assignment. You will need to submit a new response in order to complete this step. Are you sure you want to continue?"
 msgstr "이 과제에 대한 응답을 재설정하려고 합니다. 이 단계를 완료하려면 새 응답을 제출해야 합니다. 계속하시겠습니까?"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -355,11 +324,8 @@ msgstr "개별 파일 크기는 {max_files_mb} 이하여야 합니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:669
-msgid ""
-"File upload failed: unsupported file type. Only the supported file types can"
-" be uploaded. If you have questions, please reach out to the course team."
-msgstr ""
-"파일 업로드 실패: 지원되지 않는 파일 유형입니다. 지원되는 파일 유형만 업로드할 수 있습니다. 질문이 있으면 코스 팀에 문의하세요."
+msgid "File upload failed: unsupported file type. Only the supported file types can be uploaded. If you have questions, please reach out to the course team."
+msgstr "파일 업로드 실패: 지원되지 않는 파일 유형입니다. 지원되는 파일 유형만 업로드할 수 있습니다. 질문이 있으면 코스 팀에 문의하세요."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_response.js:680
@@ -398,9 +364,7 @@ msgstr ""
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_self.js:138
-msgid ""
-"If you leave this page without submitting your self assessment, you will "
-"lose any work you have done."
+msgid "If you leave this page without submitting your self assessment, you will lose any work you have done."
 msgstr "자체 평가를 제출하지 않고 이 페이지를 떠나면 수행한 모든 작업이 손실됩니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -416,9 +380,7 @@ msgstr "학습자 이름을 입력해야 합니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:214
-msgid ""
-"This grade will be applied to all members of the team. Do you want to "
-"continue?"
+msgid "This grade will be applied to all members of the team. Do you want to continue?"
 msgstr "이 등급은 팀의 모든 멤버에게 적용됩니다. 계속하시겠습니까?"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -433,9 +395,7 @@ msgstr "채점되지 않은 응답의 수를 가져오는 중 오류가 발생�
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_staff_area.js:538
-msgid ""
-"If you leave this page without submitting your staff assessment, you will "
-"lose any work you have done."
+msgid "If you leave this page without submitting your staff assessment, you will lose any work you have done."
 msgstr "직원 평가를 제출하지 않고 이 페이지를 떠나면 수행한 모든 작업이 손실됩니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -445,9 +405,7 @@ msgstr "선택에 대한 피드백을 제공합니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
 #: xblock/static/js/src/lms/oa_peer.js:217
-msgid ""
-"If you leave this page without submitting your peer assessment, you will "
-"lose any work you have done."
+msgid "If you leave this page without submitting your peer assessment, you will lose any work you have done."
 msgstr "동료 평가를 제출하지 않고 이 페이지를 떠나면 수행한 모든 작업이 손실됩니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -487,25 +445,15 @@ msgid "Grade Status"
 msgstr "등급 상태"
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-msgid ""
-"The \"{name}\" problem is configured to require a minimum of {min_grades} "
-"peer grades, and asks to review {min_graded} peers."
-msgstr ""
-"\" {name} \" 문제는 최소 {min_grades} 동료 학점이 필요하도록 구성되어 있으며, 이 문제는 {min_graded} "
-"동료를 검토하도록 요청합니다."
+msgid "The \"{name}\" problem is configured to require a minimum of {min_grades} peer grades, and asks to review {min_graded} peers."
+msgstr "\" {name} \" 문제는 최소 {min_grades} 동료 학점이 필요하도록 구성되어 있으며, 이 문제는 {min_graded} 동료를 검토하도록 요청합니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-msgid ""
-"There are currently {stuck_learners} learners in the waiting state, meaning "
-"they have not yet met all requirements for Peer Assessment. "
-msgstr ""
-"현재 대기 상태에 있는 학습자는 {stuck_learners} 명입니다. 즉, 이들은 아직 동료 평가에 대한 모든 요건을 충족하지 "
-"못했습니다. "
+msgid "There are currently {stuck_learners} learners in the waiting state, meaning they have not yet met all requirements for Peer Assessment. "
+msgstr "현재 대기 상태에 있는 학습자는 {stuck_learners} 명입니다. 즉, 이들은 아직 동료 평가에 대한 모든 요건을 충족하지 못했습니다. "
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
-msgid ""
-"However, {overwritten_count} of these students have received a grade through"
-" the staff grade override tool already."
+msgid "However, {overwritten_count} of these students have received a grade through the staff grade override tool already."
 msgstr "그러나 이들 학생 중 {overwritten_count} 명은 이미 교직원 성적 무시 도구를 통해 성적을 받았습니다."
 
 #: xblock/static/dist/openassessment-lms.0ed216fc6ce56a916473.js:362
@@ -564,10 +512,7 @@ msgstr "기준 추가됨"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:102
-msgid ""
-"You have added a criterion. You will need to select an option for the "
-"criterion in the Learner Training step. To do this, click the Assessment "
-"Steps tab."
+msgid "You have added a criterion. You will need to select an option for the criterion in the Learner Training step. To do this, click the Assessment Steps tab."
 msgstr "기준을 추가했습니다. 학습자 교육 단계에서 기준에 대한 옵션을 선택해야 합니다. 이를 위해 평가 단계 탭을 클릭합니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
@@ -578,19 +523,12 @@ msgstr "옵션이 삭제되었습니다"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:152
-msgid ""
-"You have deleted an option. That option has been removed from its criterion "
-"in the sample responses in the Learner Training step. You might have to "
-"select a new option for the criterion."
-msgstr ""
-"옵션을 삭제했습니다. 해당 옵션은 학습자 교육 단계의 샘플 응답에서 기준에서 제거되었습니다. 기준에 대한 새 옵션을 선택해야 할 수도 "
-"있습니다."
+msgid "You have deleted an option. That option has been removed from its criterion in the sample responses in the Learner Training step. You might have to select a new option for the criterion."
+msgstr "옵션을 삭제했습니다. 해당 옵션은 학습자 교육 단계의 샘플 응답에서 기준에서 제거되었습니다. 기준에 대한 새 옵션을 선택해야 할 수도 있습니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:188
-msgid ""
-"You have deleted all the options for this criterion. The criterion has been "
-"removed from the sample responses in the Learner Training step."
+msgid "You have deleted all the options for this criterion. The criterion has been removed from the sample responses in the Learner Training step."
 msgstr "이 기준에 대한 모든 옵션을 삭제했습니다. 기준은 학습자 교육 단계의 샘플 응답에서 제거되었습니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
@@ -600,9 +538,7 @@ msgstr "기준 삭제됨"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:216
-msgid ""
-"You have deleted a criterion. The criterion has been removed from the "
-"example responses in the Learner Training step."
+msgid "You have deleted a criterion. The criterion has been removed from the example responses in the Learner Training step."
 msgstr "기준을 삭제했습니다. 기준은 학습자 교육 단계의 예시 응답에서 제거되었습니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
@@ -612,16 +548,12 @@ msgstr "경고"
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_listeners.js:395
-msgid ""
-"Changes to steps that are not selected as part of the assignment will not be"
-" saved."
+msgid "Changes to steps that are not selected as part of the assignment will not be saved."
 msgstr "과제의 일부로 선택되지 않은 단계에 대한 변경 사항은 저장되지 않습니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit_settings.js:104
-msgid ""
-"Time must be in the format dd:hh:mm. The days must be between 00 and 99, the"
-" hours between 00 and 23, and the minutes between 00 and 59."
+msgid "Time must be in the format dd:hh:mm. The days must be between 00 and 99, the hours between 00 and 23, and the minutes between 00 and 59."
 msgstr "시간은 dd:hh:mm 형식이어야 합니다. 일은 00~99, 시간은 00~23, 분은 00~59여야 합니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
@@ -645,12 +577,8 @@ msgid "Errors detected on the following tabs: "
 msgstr "다음 탭에서 오류가 감지되었습니다. "
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
-msgid ""
-"This ORA has already been released. Changes will only affect learners making"
-" new submissions. Existing submissions will not be modified by this change."
-msgstr ""
-"이 ORA는 이미 공개되었습니다. 변경 사항은 새로운 제출을 하는 학습자에게만 영향을 미칩니다. 기존 제출은 이 변경 사항으로 수정되지 "
-"않습니다."
+msgid "This ORA has already been released. Changes will only affect learners making new submissions. Existing submissions will not be modified by this change."
+msgstr "이 ORA는 이미 공개되었습니다. 변경 사항은 새로운 제출을 하는 학습자에게만 영향을 미칩니다. 기존 제출은 이 변경 사항으로 수정되지 않습니다."
 
 #: xblock/static/dist/openassessment-studio.b58bb4e55f63dadac6de.js:11
 #: xblock/static/js/src/studio/oa_edit.js:321

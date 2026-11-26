@@ -1,0 +1,20 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klms-verawood\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Confirm"
+msgstr "확인"
+
+msgid "Confirm Submit Response"
+msgstr "제출 확인"
+
+msgid ""
+"You're about to submit your response for this assignment. After you submit "
+"this response, you can't change it or submit a new response."
+msgstr "이 과제에 대한 답변을 제출하려고 합니다. 답변을 제출하고 나면 내용을 수정하거나 새로 제출할 수 없습니다."

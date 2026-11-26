@@ -1,0 +1,116 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klms-verawood\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr ""
+"다른 사람이 귀하의 작품의 원본 사본만 복사, 배포, 표시 및 수행하도록 허용하고, 이를 기반으로 하는 파생 작품은 허용하지 않습니다. "
+"이 옵션은 \"Share Alike\"와 호환되지 않습니다."
+
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr "{email} 의 \"{container}\" 액세스를 제한하시겠습니까?"
+
+msgid "The topic \"{topic}\" could not be found."
+msgstr "주제 \"{topic}\"을 찾을 수 없습니다."
+
+msgid "The team \"{team}\" could not be found."
+msgstr "팀 \"{team}\"을 찾을 수 없습니다."
+
+msgid ""
+"e.g. 'Sky with clouds'. The description is helpful for users who cannot see "
+"the image."
+msgstr "예: '구름이 있는 하늘'. 이 설명은 이미지를 볼 수 없는 사용자에게 도움이 됩니다."
+
+msgid "Uploaded file issues. Click on \"+\" to view."
+msgstr "업로드된 파일 문제. \"+\"를 클릭하여 확인하세요."
+
+msgid ""
+"Your file '{file}' has been uploaded. Allow a few minutes for processing."
+msgstr "귀하의 파일 '{file}'이 업로드되었습니다. 처리하는 데 몇 분이 걸립니다."
+
+msgid ""
+"There was a problem creating the report. Select \"Create Executive Summary\""
+" to try again."
+msgstr "보고서를 만드는 중에 문제가 발생했습니다. \"Executive Summary 만들기\"를 선택하여 다시 시도하세요."
+
+msgid ""
+"Error resetting entrance exam attempts for student '{student_id}'. Make sure"
+" student identifier is correct."
+msgstr "학생 '{student_id}'의 입학 시험 시도를 재설정하는 중 오류가 발생했습니다. 학생 식별자가 올바른지 확인하세요."
+
+msgid "Entrance exam state is being deleted for student '{student_id}'."
+msgstr "학생 '{student_id}'에 대한 입학 시험 상태가 삭제되고 있습니다."
+
+msgid ""
+"Error deleting entrance exam state for student '{student_id}'. Make sure "
+"student identifier is correct."
+msgstr "학생 '{student_id}'의 입학 시험 상태를 삭제하는 중 오류가 발생했습니다. 학생 식별자가 올바른지 확인하세요."
+
+msgid ""
+"Error getting entrance exam task history for student '{student_id}'. Make "
+"sure student identifier is correct."
+msgstr ""
+"학생 '{student_id}'에 대한 입학 시험 과제 기록을 가져오는 중 오류가 발생했습니다. 학생 식별자가 올바른지 확인하세요."
+
+msgid ""
+"Started rescore problem task for problem '<%- problem_id %>' and student "
+"'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
+"of the task."
+msgstr ""
+"문제 '<%- problem_id %>' 및 학생 '<%- student_id %>'에 대한 문제 재채점 작업을 시작했습니다. 작업 "
+"상태를 보려면 '작업 상태 표시' 버튼을 클릭하세요."
+
+msgid ""
+"Started task to override the score for problem '<%- problem_id %>' and "
+"student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
+"status of the task."
+msgstr ""
+"문제 '<%- problem_id %>' 및 학생 '<%- student_id %>'에 대한 점수를 재정의하는 작업을 시작했습니다. 작업"
+" 상태를 보려면 '작업 상태 표시' 버튼을 클릭하세요."
+
+msgid ""
+"Error starting a task to rescore entrance exam for student '{student_id}'. "
+"Make sure that entrance exam has problems in it and student identifier is "
+"correct."
+msgstr ""
+"학생 '{student_id}'의 입학 시험을 다시 채점하는 작업을 시작하는 중 오류가 발생했습니다. 입학 시험에 문제가 있는지, 학생 "
+"식별자가 올바른지 확인하세요."
+
+msgid "Your upload of '{file}' failed."
+msgstr "'{file}' 업로드에 실패했습니다."
+
+msgid ""
+"This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
+"exist in the current grading policy."
+msgstr "이 하위 섹션은 현재 등급 정책에 존재하지 않는 \\\" %(gradingType)s \\\"로 구성되어 있습니다."
+
+msgid ""
+"This proctored exam has been released to learners. You may not convert it to"
+" another type of special exam. You may revert this subsection back to being "
+"a basic exam by selecting 'None', or a timed exam, but you will NOT be able "
+"to configure it as a proctored exam in the future."
+msgstr ""
+"이 감독 시험은 학습자에게 공개되었습니다. 다른 유형의 특별 시험으로 전환할 수 없습니다. '없음'을 선택하여 이 하위 섹션을 기본 "
+"시험으로 되돌리거나 시간 제한이 있는 시험으로 전환할 수 있지만, 나중에 감독 시험으로 구성할 수는 없습니다."
+
+msgid "{organization}\\'s logo"
+msgstr "{organization} \\'s 로고"
+
+msgid ""
+"You need a device that has a webcam. If you receive a browser prompt for "
+"access to your camera, please make sure to click 'Allow'."
+msgstr "웹캠이 있는 기기가 필요합니다. 카메라에 액세스하기 위한 브라우저 프롬프트가 표시되면 '허용'을 클릭해야 합니다."
+
+msgid ""
+"To take the photo of your face, click on the camera button {icon}. If you "
+"need to try again, click 'Retake Photo'."
+msgstr "얼굴 사진을 찍으려면 카메라 버튼 {icon} 을 클릭하세요. 다시 시도해야 하는 경우 '사진 다시 찍기'를 클릭하세요."
